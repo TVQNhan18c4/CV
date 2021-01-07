@@ -79,9 +79,9 @@ body {
 	text-align: justify;
 }
 .info-section {
-	margin: 1rem;
+	margin: 1rem 0;
 	position: relative;
-
+	transition: all 0.3s;
 }
 
 
@@ -110,7 +110,7 @@ body {
 /* Programming skills section */
 
 .pg-list > li {	
-	margin: 1rem;
+	margin: 1rem 0;
 	display: flex;
 	align-items: center;
 }
