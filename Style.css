@@ -46,7 +46,6 @@ body {
 	padding: 2rem 1rem;
 	margin-bottom: 50px;
 	text-align: center;
-	user-select: none;
 }
 
 .photo img {
@@ -67,7 +66,6 @@ body {
 	margin: 0;
 }
 .intro-section {
-
 	padding: 0 1rem;
 	color: var(--color-gray-dark-1);
 }
@@ -81,9 +79,9 @@ body {
 	text-align: justify;
 }
 .info-section {
-	margin: 1rem 0;
+	margin: 1rem;
 	position: relative;
-	transition: all 0.3s;
+
 }
 
 
@@ -107,13 +105,12 @@ body {
 .detail-section > .detail-content {
 	padding: 1.5rem;
 	padding-left: 2rem;
-	user-select: none;
 }
 	
 /* Programming skills section */
 
 .pg-list > li {	
-	margin: 1rem 0;
+	margin: 1rem;
 	display: flex;
 	align-items: center;
 }
